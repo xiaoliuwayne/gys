@@ -1,0 +1,62 @@
+{
+	"name": "gongyi",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"test": "vue-cli-service build --mode test",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"Vue": "latest",
+		"async-validator": "^1.11.0",
+		"axios": "^0.18.0",
+		"clipboard": "^2.0.4",
+		"core-js": "^2.6.5",
+		"lib-flexible": "^0.3.2",
+		"lodash": "^4.17.11",
+		"qs": "^6.7.0",
+		"vant": "^1.6.14",
+		"vue": "^2.6.10",
+		"vue-cookies": "^1.5.13",
+		"vue-lazyload": "^1.2.6",
+		"vue-router": "^3.0.6",
+		"vue-upload-component": "^2.8.20",
+		"vuex": "^3.1.0"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.6.0",
+		"@vue/cli-plugin-eslint": "^3.6.0",
+		"@vue/cli-service": "^3.6.0",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^5.16.0",
+		"eslint-plugin-vue": "^5.0.0",
+		"less": "^3.9.0",
+		"less-loader": "^4.1.0",
+		"node-sass": "^4.11.0",
+		"postcss-pxtorem": "^4.0.1",
+		"sass-loader": "^7.1.0",
+		"vue-template-compiler": "^2.5.21"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/essential",
+			"eslint:recommended"
+		],
+		"rules": {},
+		"parserOptions": {
+			"parser": "babel-eslint"
+		}
+	},
+	"postcss": {},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not ie <= 8"
+	]
+}

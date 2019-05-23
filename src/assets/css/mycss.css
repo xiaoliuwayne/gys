@@ -1,0 +1,144 @@
+ /*导航头*/
+
+.header{
+    background: #5f5f5f;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+ .header-top{
+     position: fixed;
+     top:0;
+ }
+.main-body{
+    margin-top: 45px;
+}
+.van-nav-bar .van-icon{
+    color: #ffffff;
+}
+.van-nav-bar__title{
+    color: #ffffff;
+}
+
+ .wechat-header{
+     width: 40px;
+     height: 40px;
+     border-radius: 60px;
+ }
+ .wechat-header2{
+     width: 60px;
+     height: 60px;
+     border-radius: 60px;
+ }
+ .choice{
+
+ }
+ .select{
+
+ }
+ .margin-distance{
+     margin-bottom: 15px;
+ }
+ .margin-block{
+     margin-top: 15px;
+ }
+/*分割线*/
+.line{
+    /*width: 100%;*/
+    border-bottom: #dddddd 1px solid;
+    height: 0;
+    margin: 5px auto;
+}
+/*panel的样式*/
+.pannel-header{
+    font-weight: bolder
+}
+.panel-padding{
+    padding: 1%
+}
+  /*图片显示*/
+.img-uploader{
+    width: 100%;
+    display: flex;
+}
+.img-uploader-item{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 0 7px;
+}
+ .img-uploader-item-1{
+     float: left;
+     width: 60px;
+     height: 80px;
+     margin: 0 7px;
+ }
+.img-uploader-item-2{
+    width: 60px;
+    height: 60px;
+}
+.imgPreview{
+    width: 60px;
+    height: 60px;
+}
+
+.main-bkcolor{
+    background: #f0f0f0
+}
+
+.font-boder{
+    font-weight: bolder;
+}
+.buyer{
+    background: white;
+    padding: 8px 10px;
+}
+
+.buyer-shop{
+    font-weight: bolder;
+}
+.buyer-info{
+    color:#323233;
+    font-size: 0.37333rem;
+    font-family: "Microsoft YaHei";
+}
+
+.scroll-y{
+    overflow-y: auto;
+    min-height: 50px;
+    max-height: 50px;
+    color: #323233;
+    font-weight: normal;
+    /*font-size: 0.32rem;*/
+}
+.hidden{
+    overflow: hidden;
+}
+
+.card-font-size{
+    /*font-size: 0.2rem;*/
+}
+ .show-bgcolor{
+     background: white;
+ }
+
+ .mark-color{
+     color: red;
+ }
+ .left{
+     float: left;
+ }
+ .right{
+     float: right;
+ }
+ .spa-around{
+     justify-content: space-around;
+ }
+ .card-desc{
+     padding: 5px 0;
+ }
+ .cloth-desc{
+     width: 100%;
+     text-align: center;
+ }
+
